@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/kitakami-common/proprietary/bin/secd:system/bin/secd \
     vendor/sony/kitakami-common/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
+    vendor/sony/kitakami-common/proprietary/bin/tad_static:system/bin/tad_static \
     vendor/sony/kitakami-common/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/kitakami-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/kitakami-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
@@ -108,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/sony/kitakami-common/proprietary/lib64/libmiscta.so:system/lib64/libmiscta.so \
     vendor/sony/kitakami-common/proprietary/lib64/libplstorage.so:system/lib64/libplstorage.so \
+    vendor/sony/kitakami-common/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/kitakami-common/proprietary/lib64/libprotobuf-c.so:system/lib64/libprotobuf-c.so \
     vendor/sony/kitakami-common/proprietary/lib64/libsuntory.so:system/lib64/libsuntory.so \
     vendor/sony/kitakami-common/proprietary/lib64/libsuntory_utils.so:system/lib64/libsuntory_utils.so \
@@ -170,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
@@ -223,6 +226,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
