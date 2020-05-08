@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/sony/kitakami-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
     vendor/sony/kitakami-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/sony/kitakami-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/kitakami-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/sony/kitakami-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/sony/kitakami-common/proprietary/bin/sct_service:system/bin/sct_service \
@@ -135,7 +136,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
@@ -198,7 +204,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/hw/keystore.msm8994.so:system/vendor/lib64/hw/keystore.msm8994.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
