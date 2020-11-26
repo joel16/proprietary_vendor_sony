@@ -398,7 +398,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/satsuki/proprietary/vendor/firmware/tzfingerprint.b02:system/vendor/firmware/tzfingerprint.b02 \
     vendor/sony/satsuki/proprietary/vendor/firmware/tzfingerprint.b03:system/vendor/firmware/tzfingerprint.b03 \
     vendor/sony/satsuki/proprietary/vendor/firmware/tzfingerprint.mdt:system/vendor/firmware/tzfingerprint.mdt \
-    vendor/sony/satsuki/proprietary/vendor/lib/hw/camera.vendor.qcom.so:system/vendor/lib/hw/camera.vendor.qcom.so \
     vendor/sony/satsuki/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/sony/satsuki/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/sony/satsuki/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
